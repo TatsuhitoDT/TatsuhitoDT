@@ -1,0 +1,109 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Knowledge and Automation Architecture">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="0" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0f16"/>
+    </linearGradient>
+    <linearGradient id="lane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#11161d"/>
+    </linearGradient>
+    <pattern id="agrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#457b9d"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="520" fill="url(#abg)"/>
+  <rect width="1280" height="520" fill="url(#agrid)" opacity="0.5"/>
+
+  <!-- title -->
+  <rect x="48" y="34" width="64" height="4" rx="2" fill="#e63946"/>
+  <text x="48" y="74" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">AI Knowledge &amp; Automation Architecture</text>
+  <text x="48" y="100" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#8b98a5">From raw sources to autonomous business outcomes — the operating layer behind a one-person venture.</text>
+
+  <!-- lane labels -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#6b7785" text-anchor="middle">
+    <text x="158" y="150">SOURCES</text>
+    <text x="430" y="150">KNOWLEDGE LAYER</text>
+    <text x="702" y="150">INTELLIGENCE</text>
+    <text x="974" y="150">AGENTS</text>
+    <text x="1180" y="150">OUTCOMES</text>
+  </g>
+
+  <!-- connectors -->
+  <g stroke="#457b9d" stroke-width="2" fill="none" opacity="0.75" marker-end="url(#arrow)">
+    <line x1="268" y1="300" x2="312" y2="300"/>
+    <line x1="548" y1="300" x2="592" y2="300"/>
+    <line x1="812" y1="300" x2="856" y2="300"/>
+    <line x1="1092" y1="300" x2="1118" y2="300"/>
+  </g>
+
+  <!-- SOURCES lane -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="48" y="190" width="220" height="220" rx="14" fill="url(#lane)" stroke="#1d2733"/>
+    <rect x="68" y="212" width="180" height="40" rx="8" fill="#11161d" stroke="#e63946"/>
+    <text x="158" y="237" font-size="14" fill="#c9d1d9" text-anchor="middle">Documents &amp; Notion</text>
+    <rect x="68" y="262" width="180" height="40" rx="8" fill="#11161d" stroke="#457b9d"/>
+    <text x="158" y="287" font-size="14" fill="#c9d1d9" text-anchor="middle">Databases &amp; APIs</text>
+    <rect x="68" y="312" width="180" height="40" rx="8" fill="#11161d" stroke="#2a9d8f"/>
+    <text x="158" y="337" font-size="14" fill="#c9d1d9" text-anchor="middle">Operational Events</text>
+    <rect x="68" y="362" width="180" height="34" rx="8" fill="#11161d" stroke="#3a4654"/>
+    <text x="158" y="384" font-size="13" fill="#8b98a5" text-anchor="middle">Email · Files · Web</text>
+  </g>
+
+  <!-- KNOWLEDGE LAYER lane -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="320" y="190" width="228" height="220" rx="14" fill="url(#lane)" stroke="#1d2733"/>
+    <rect x="342" y="212" width="184" height="40" rx="8" fill="#11161d" stroke="#457b9d"/>
+    <text x="434" y="237" font-size="14" fill="#c9d1d9" text-anchor="middle">Embeddings</text>
+    <rect x="342" y="262" width="184" height="40" rx="8" fill="#11161d" stroke="#2a9d8f"/>
+    <text x="434" y="287" font-size="14" fill="#c9d1d9" text-anchor="middle">Vector DB · Pinecone</text>
+    <rect x="342" y="312" width="184" height="40" rx="8" fill="#11161d" stroke="#e63946"/>
+    <text x="434" y="337" font-size="14" fill="#c9d1d9" text-anchor="middle">Knowledge Graph</text>
+    <rect x="342" y="362" width="184" height="34" rx="8" fill="#11161d" stroke="#3a4654"/>
+    <text x="434" y="384" font-size="13" fill="#8b98a5" text-anchor="middle">Semantic Search · RAG</text>
+  </g>
+
+  <!-- INTELLIGENCE lane -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="592" y="190" width="220" height="220" rx="14" fill="url(#lane)" stroke="#1d2733"/>
+    <rect x="612" y="212" width="180" height="40" rx="8" fill="#11161d" stroke="#e63946"/>
+    <text x="702" y="237" font-size="14" fill="#c9d1d9" text-anchor="middle">Claude · GPT · Gemini</text>
+    <rect x="612" y="262" width="180" height="40" rx="8" fill="#11161d" stroke="#2a9d8f"/>
+    <text x="702" y="287" font-size="14" fill="#c9d1d9" text-anchor="middle">Local LLM · Ollama</text>
+    <rect x="612" y="312" width="180" height="40" rx="8" fill="#11161d" stroke="#457b9d"/>
+    <text x="702" y="337" font-size="14" fill="#c9d1d9" text-anchor="middle">MCP Tool Layer</text>
+    <rect x="612" y="362" width="180" height="34" rx="8" fill="#11161d" stroke="#3a4654"/>
+    <text x="702" y="384" font-size="13" fill="#8b98a5" text-anchor="middle">Reasoning · Retrieval</text>
+  </g>
+
+  <!-- AGENTS lane -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="856" y="190" width="236" height="220" rx="14" fill="url(#lane)" stroke="#1d2733"/>
+    <rect x="878" y="212" width="192" height="40" rx="8" fill="#11161d" stroke="#2a9d8f"/>
+    <text x="974" y="237" font-size="14" fill="#c9d1d9" text-anchor="middle">Autonomous Agents</text>
+    <rect x="878" y="262" width="192" height="40" rx="8" fill="#11161d" stroke="#e63946"/>
+    <text x="974" y="287" font-size="14" fill="#c9d1d9" text-anchor="middle">n8n Orchestration</text>
+    <rect x="878" y="312" width="192" height="40" rx="8" fill="#11161d" stroke="#457b9d"/>
+    <text x="974" y="337" font-size="14" fill="#c9d1d9" text-anchor="middle">Apps Script · APIs</text>
+    <rect x="878" y="362" width="192" height="34" rx="8" fill="#11161d" stroke="#3a4654"/>
+    <text x="974" y="384" font-size="13" fill="#8b98a5" text-anchor="middle">Research · Outreach · Ops</text>
+  </g>
+
+  <!-- OUTCOMES lane -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="1118" y="190" width="124" height="220" rx="14" fill="#11161d" stroke="#e63946"/>
+    <text x="1180" y="262" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Scalable</text>
+    <text x="1180" y="288" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Business</text>
+    <text x="1180" y="314" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Outcomes</text>
+    <line x1="1140" y1="332" x2="1220" y2="332" stroke="#2a9d8f" stroke-width="1.5"/>
+    <text x="1180" y="356" font-size="12" fill="#8b98a5" text-anchor="middle">Human:</text>
+    <text x="1180" y="374" font-size="12" fill="#8b98a5" text-anchor="middle">Go / Pivot / Kill</text>
+  </g>
+
+  <!-- footer -->
+  <text x="48" y="468" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#6b7785">Operating leverage: one operator, organization-scale output — intelligence replaces headcount.</text>
+</svg>

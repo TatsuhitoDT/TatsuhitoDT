@@ -1,0 +1,68 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tatsuhito Muramatsu — Chief Dragon Officer, Dragon Tech">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#0f1b2d"/>
+      <stop offset="1" stop-color="#13070b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e63946"/>
+      <stop offset="0.5" stop-color="#457b9d"/>
+      <stop offset="1" stop-color="#2a9d8f"/>
+    </linearGradient>
+    <linearGradient id="name" x1="80" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9d1d9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.28" r="0.55">
+      <stop offset="0" stop-color="#e63946" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#e63946" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1d2733" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)" opacity="0.45"/>
+  <rect width="1280" height="360" fill="url(#glow)"/>
+
+  <!-- node-network motif (right side) -->
+  <g stroke="#2a9d8f" stroke-width="1.2" opacity="0.55">
+    <line x1="980" y1="90" x2="1080" y2="150"/>
+    <line x1="1080" y1="150" x2="1010" y2="250"/>
+    <line x1="1080" y1="150" x2="1190" y2="120"/>
+    <line x1="1010" y1="250" x2="1140" y2="280"/>
+    <line x1="1190" y1="120" x2="1140" y2="280"/>
+    <line x1="980" y1="90" x2="1190" y2="120"/>
+    <line x1="1080" y1="150" x2="1140" y2="280"/>
+  </g>
+  <g fill="#e63946">
+    <circle cx="980" cy="90" r="6"/>
+    <circle cx="1190" cy="120" r="5"/>
+    <circle cx="1140" cy="280" r="6"/>
+  </g>
+  <g fill="#457b9d">
+    <circle cx="1080" cy="150" r="8"/>
+    <circle cx="1010" cy="250" r="5"/>
+  </g>
+
+  <!-- accent rule -->
+  <rect x="80" y="78" width="86" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <!-- name -->
+  <text x="78" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="62" font-weight="700" fill="url(#name)">Tatsuhito Muramatsu</text>
+
+  <!-- title -->
+  <text x="80" y="206" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#e63946">Chief Dragon Officer</text>
+  <text x="318" y="206" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#8b98a5">·  Dragon Tech</text>
+
+  <!-- tagline -->
+  <text x="80" y="252" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#c9d1d9">AI Business Builder  ·  Former Fintech Executive  ·  Former CEO  ·  Management Consultant</text>
+  <text x="80" y="282" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#8b98a5">Generative AI Strategist  ·  AI Agent Practitioner  ·  One-Person Unicorn Builder</text>
+
+  <!-- mission chip -->
+  <rect x="80" y="306" width="560" height="34" rx="17" fill="#161b22" stroke="#2a9d8f" stroke-width="1"/>
+  <circle cx="102" cy="323" r="5" fill="#2a9d8f"/>
+  <text x="118" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#c9d1d9">AI should create new business models — not merely automate existing ones.</text>
+</svg>

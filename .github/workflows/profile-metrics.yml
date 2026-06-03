@@ -1,0 +1,52 @@
+name: Profile Metrics
+
+on:
+  schedule:
+    # Refresh metrics daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate primary metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # METRICS_TOKEN is a personal access token with `repo` and `read:org` scopes.
+          # Add it under: Settings > Secrets and variables > Actions > New repository secret.
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: TatsuhitoDT
+          filename: assets/metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Tokyo
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_lines: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_stargazers: yes
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          config_output: svg
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore(metrics): refresh profile metrics"
