@@ -3,7 +3,7 @@ name: Profile Metrics
 on:
   schedule:
     # Refresh metrics daily at 00:00 UTC
-    - cron: "0 0 * * *"
+    - cron: "0 0 1 * *"
   workflow_dispatch:
   push:
     branches:
